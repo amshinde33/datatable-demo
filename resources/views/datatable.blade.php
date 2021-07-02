@@ -82,7 +82,10 @@
                                 return '<button class="btn btn-primary btn-xs">' + row.iso_code_2 +'</button>';
                             }
                         }
-                    ] 
+                    ] ,
+                    "columnDef" : [
+                        
+                    ]
                 });
             }
 
